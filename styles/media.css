@@ -1,46 +1,48 @@
-@media (max-width:1024px) {
-    
-    h2 {
-        font-size: 32px;
-    }
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 32px;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    .tam-imagem {
-        width: 70%;
-    }
-    
+  .tam-imagem {
+    width: 70%;
+  }
 }
 
 @media (max-width: 770px) {
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 
-    main {
-        flex-direction: column;
-    }
+  main {
+    flex-direction: column;
+  }
 
-    aside {
-        margin: 0 auto;
-    }
-    form {
-        margin: 0 auto;
-        width: 90%;
-    }
+  aside {
+    margin: 0 auto;
+  }
+  .alinhar {
+    text-align: center;
+    margin: 0 auto;
+  }
+  form {
+    margin: 0 auto;
+    width: 90%;
+  }
 
-    input {
-        align-self: center;
-    }
+  input {
+    align-self: center;
+  }
 
-    img {
-        display: none;
-    }
-    
-    ul {
-        text-align: center;
-        padding: 10px;
-    }
+  img {
+    display: none;
+  }
+
+  ul {
+    text-align: center;
+    padding: 10px;
+  }
 }
